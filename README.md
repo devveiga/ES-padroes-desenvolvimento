@@ -6,7 +6,7 @@ Link: https://drive.google.com/drive/folders/1v3kR1C-aXRUQ1zV-DubuTZOvjqQj-YCU?u
 Vitor Veiga – Abstract Factory | Builder
 Link: https://drive.google.com/file/d/1pL2U6kk71HQ6cFgfA1opKC07b2R5L8Jl/view?usp=sharing
 
-📌 Obs: O Arthur já havia demonstrado dois padrões da mesma categoria, portanto eu acabei optando por apresentar dois padrões de uma categoria diferente.
+📌 Obs: O Arthur já havia demonstrado dois padrões da mesma categoria, portanto foi optado por apresentar dois padrões de uma categoria diferente.
 
 ----------------------------------------------- // ---------------------------------------------------
 
