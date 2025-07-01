@@ -49,28 +49,6 @@ secador = Secador()
 secador.ligar(AdaptadorTomada(TomadaNova()))  # Funciona
 
 
-# Arquivo: adapter/explicacao.md
-'''
-# Adapter
-
-## O que é
-Permite que interfaces incompatíveis trabalhem juntas, agindo como um adaptador.
-
-## Exemplo usado
-Um secador com tomada antiga sendo conectado a uma nova tomada, usando um adaptador.
-
-## Pontos fortes
-- Reutilização de código legado
-- Fácil integração com sistemas existentes
-
-## Pontos fracos
-- Pode ocultar dependências reais
-- Pode aumentar complexidade se muito usado
-
-## Quando usar
-- Quando você precisa que uma classe funcione com uma interface diferente da que foi projetada.
-'''
-
 
 # Arquivo: bridge/sem_padrao.py
 # Exemplo SEM padrão Bridge
@@ -125,46 +103,3 @@ forma1.desenhar()
 forma2.desenhar()
 
 
-# Arquivo: bridge/explicacao.md
-'''
-# Bridge
-
-## O que é
-Desacopla a abstração da implementação para que os dois possam evoluir independentemente.
-
-## Exemplo usado
-Formas geométricas com preenchimentos de cor separados, onde as combinações são flexíveis.
-
-## Pontos fortes
-- Facilita a extensão
-- Reduz o número de subclasses
-- Separa preocupações (abstração vs. implementação)
-
-## Pontos fracos
-- Pode ser mais complexo de entender inicialmente
-
-## Quando usar
-- Quando abstrações e implementações podem variar independentemente.
-'''
-
-
-# Arquivo: README.md
-'''
-# Padrões Estruturais - Engenharia de Software II
-
-## Integrantes
-- Arthur Xavier
-- [Nome do outro integrante]
-
-## Categoria: Estrutural
-
-## Padrões estudados:
-- Adapter
-- Bridge
-
-## Objetivo
-Estudar e aplicar os padrões de projeto definidos no livro GoF, apresentando soluções com e sem padrão, além de analisar vantagens e desvantagens de cada abordagem.
-
-## Conclusão
-Com o estudo dos padrões Adapter e Bridge, observamos que ambos ajudam a desacoplar sistemas e promover flexibilidade. O Adapter é ideal para adaptar interfaces incompatíveis e o Bridge permite variar abstrações e implementações de forma independente.
-'''
